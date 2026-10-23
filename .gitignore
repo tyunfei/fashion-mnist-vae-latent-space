@@ -1,0 +1,17 @@
+# Virtual environments and Python caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+# Generated training artifacts (not included in upload)
+*.weights.h5
+*.keras
+models/
+# Data, local system artifacts, logs
+*.csv
+*.npz
+*.npy
+.DS_Store
+Thumbs.db
+*.log
